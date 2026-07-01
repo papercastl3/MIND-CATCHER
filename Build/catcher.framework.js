@@ -5019,6 +5019,11 @@ var tempI64;
   		return Module.SystemInfo.hasWebGPU;
   	}
 
+  function _JS_SystemInfo_IsMobile()
+  	{
+  		return Module.SystemInfo.mobile;
+  	}
+
   function _JS_UnityEngineShouldQuit() {
   	return !!Module.shouldQuit;
   }
@@ -18366,6 +18371,8 @@ var wasmImports = {
   JS_SystemInfo_HasWebGL: _JS_SystemInfo_HasWebGL,
   /** @export */
   JS_SystemInfo_HasWebGPU: _JS_SystemInfo_HasWebGPU,
+  /** @export */
+  JS_SystemInfo_IsMobile: _JS_SystemInfo_IsMobile,
   /** @export */
   JS_UnityEngineShouldQuit: _JS_UnityEngineShouldQuit,
   /** @export */
