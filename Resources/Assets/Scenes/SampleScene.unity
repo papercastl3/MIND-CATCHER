@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 668e86e7c3f058540b3069f46ec2c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClawMachineGame
-  customGlassMat: {fileID: 0}
+  customGlassMat: {fileID: 2100000, guid: bbb6803cc023d71479f931572ee7b930, type: 2}
   gripForce: 1.19
   motorSpeed: 235
   openAngle: 25
